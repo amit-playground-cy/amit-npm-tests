@@ -1,0 +1,11 @@
+{
+  "name": "private-reg-github-npm",
+  "version": "1.0.0",
+  "description": "A project that depends only on too",
+  "dependencies": {
+    "@amit-playground-cy/foo": "1.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
