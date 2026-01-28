@@ -1,15 +1,11 @@
 {
-  "name": "private-reg-github-npm",
+  "name": "vulnerable-demo-project",
   "version": "1.0.0",
-  "description": "A project that depends only on too",
+  "private": true,
+  "description": "Demo project with vulnerable npm dependencies",
   "dependencies": {
-    "@amit-playground-cy/foo": "1.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "lodash": "4.17.20",
+    "minimist": "0.0.8",
+    "jquery": "3.4.0"
   }
 }
-
-
-
-
