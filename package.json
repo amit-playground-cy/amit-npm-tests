@@ -4,8 +4,7 @@
   "private": true,
   "description": "Demo project with vulnerable npm dependencies",
   "dependencies": {
-    "lodash": "4.17.20",
-    "minimist": "0.0.8",
+    "lodash": "^4.17.21",
     "jquery": "3.4.0"
   }
 }
